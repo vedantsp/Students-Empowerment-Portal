@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body,html{
+  margin:0;
+  height: 100%;
+  overflow: hidden;
+}
+#mh{
+  position:relative;
+  padding-left: 300px;
+  padding-top:40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 65px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.bg{
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+}
+.bg::before{
+  content:'';
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  background-image: url("https://minutes.co/wp-content/uploads/2019/03/shutterstock_764075791-e1553277077660.jpg");
+  opacity:0.90;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position:absolute;
+}
+.nav-bar{
+  position:relative;
+  text-decoration: none;
+  float:right;
+  font-family: 'Asap Condensed', sans-serif;
+  padding:7px;
+  font-weight: 600;
+  font-size: 17px;
+  color:white;
+}
+#box{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position:relative;
+  box-sizing:border-box;
+  border-radius: 2px;
+  width: 900px;
+  height: 500px;
+  background-color:white;
+  margin: auto;
+  margin-top:40px;
+  opacity: 0.67;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+#element{
+  padding-left:10px;
+}
+#element:hover{
+  color:#800000;
+}
+#footer{
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight: 600;
+  float: right;
+  padding-top: 30px;
+  padding-right:7px;
+  position:relative;
+  color: white;
+}
+#element-2{
+  padding-left:10px;
+  position:relative;
+}
+#element-2:hover{
+  color:#800000;
+}
+#def{
+  padding-top: 20px; 
+}
+#info{
+  padding-top: 10px;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+.bounce {
+  animation-name: bounce;
+  position:relative;
+}
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 2;
+}
+@media only screen and (max-width: 768px){
+  /* For mobile phones: */
+  body,html{
+    display: flex;
+    justify-content: center;
+  }
+  .nav-bar{
+    padding-right: 210px;
+  }
+  #element{
+    padding-left:20px;
+  }
+  #box{
+    position: relative;
+    box-sizing:border-box;
+    border-radius: 2px;
+    width: 380px;
+    height: 430px;
+    font-size: 15px;
+  }
+  #footer{
+    position: relative;
+    padding: 10px;
+    padding-right: 108px;
+    padding-top:30px;
+  }
+  #element-2{
+    padding-left:20px;
+  }
+  #mh{
+    padding-top: 30px;
+    font-size: 2.0em;
+    display:flex;
+    justify-content: center;
+    padding-right: 298px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  body,html{
+    display: flex;
+    justify-content: center;
+  }
+  #mh{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2.1em;
+    display:flex;
+    justify-content: center;
+    float: right;
+    padding-right: 370px;
+  }
+}
