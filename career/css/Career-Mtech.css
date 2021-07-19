@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.navbar{
+    background-color: #B94141;
+    padding:2% 10%  ;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+.nav-brand{
+    margin-right: 50%;
+    font-size: 3em;
+    color: white;
+    font-weight: bolder;
+}
+.nav-brand:hover{
+    font-weight:bolder;
+    color: black;
+}
+.nav-brand:link{
+    text-decoration: none;
+}
+.nav-links{
+    margin-right: 2%;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 550;
+}
+
+.nav-links:link{
+    text-decoration: none;
+}
+.nav-links:hover{
+    font-weight: bolder;
+    color: black;
+
+}
+
+.main-body{
+    padding: 2% 10%;
+    margin: 0px;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;    
+    background-color: rgb(245, 238, 238);
+}
+
+.main-body h1{
+    font-size:2em;
+}
+
+.main-body p{
+  margin: 0.5em 0px;
+  font-size: 1.2em;
+  
+}
+
+
+.table-one{
+   
+   margin: 10px 0px 50px 0px;
+}
+.table-one table {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table-one table thead tr{
+
+   background-color: #B94141;
+   color: white;
+   font-weight: bold;
+}
+
+.table-one table td{
+    text-align: left;
+    padding: 0.5%;
+}
+
+.table-two{
+    margin: 2% 0px 2% 0%;
+}
+
+.table-two table{
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table-two table td{
+    text-align: left;
+    padding: 01%;
+    padding-right: 5em;
+}
+
+.table-three table{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 0.5%;
+}
+.table-three table td{
+    padding: 1em;
+
+}
+.links{
+    margin-bottom: 8%;
+    font-size: 1.5em;
+}
+.links h1{
+    
+    color: #B94141;
+}
+
+.links li{
+    text-decoration: none;
+   
+}
+
+.links:link{
+    text-decoration: none;
+    color: black;
+}
+
+.alink{
+    color: black;
+    text-decoration: none;
+}
+.alink:hover{
+    color: #B94141;
+   
+}
+
+
+hr{
+    height: 2px;
+    background-color: #B94141;
+
+}
+
+h4{
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #B94141;
+    padding: 1% 12%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i");
+
+body{
+    margin: 0px;
+    padding: 0px; 
+}
+    
+    .navbar{
+        background-color: #B94141;
+        padding:2% 10%  ;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .nav-brand{
+        margin-right: 50%;
+        font-size: 3em;
+        color: white;
+        font-weight: bolder;
+    }
+    .nav-brand:hover{
+        font-weight:bolder;
+        color: black;
+    }
+    .nav-brand:link{
+        text-decoration: none;
+    }
+    .nav-links{
+        margin-right: 2%;
+        color: white;
+        font-size: 1.2em;
+        font-weight: 550;
+    }
+    
+    .nav-links:link{
+        text-decoration: none;
+    }
+    .nav-links:hover{
+        font-weight: bolder;
+        color: black;
+    
+    }
+
+.main-body {
+    text-align: center;
+    padding:2% 5% ;
+    margin-bottom: 10%;
+
+}
+.main-body h1{
+    font-size: 3.5em;
+    font-family: 'Google Sans';
+    color: #B94141;
+}
+
+.card{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(235, 235, 235);
+    display: inline-block;
+    margin: 3%;
+    padding: 1%;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 5px 5px 5px #aaa;
+}
+.card h1{
+    font-size: 3em;
+    
+}
+.card p{
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:#B94141;
+}
+a{
+    text-decoration: none;
+}
+
+
+.card:hover{
+    background: rgb(41, 35, 35);
+    color: white !important;
+    box-shadow: 10px 10px 3px #e75050;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer{
+    background-color: #B94141;
+    padding: 1% 12%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
